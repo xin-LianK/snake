@@ -1,0 +1,105 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.jiemian{
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background:rgba(0,0,0,1) url(../imgs/1.jpg) no-repeat center;
+	background-size: 900px 600px;
+}
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background:rgba(0,0,0,1) url(../imgs/1212.jpg) no-repeat center;
+	background-size: 900px 600px;
+}
+.sen{
+	position: absolute;
+	width: 900px;
+	height: 600px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background:rgba(255,255,255,0.2);
+	/*background: url(../imgs/sen.png) no-repeat center;*/
+}
+.she{
+	background: url(../imgs/she.png) no-repeat center center;
+	background-size: 100%;
+	border-radius: 50%;
+}
+.food{
+	background: url(../imgs/shiwu.jpg) no-repeat center center;
+	background-size: 100%;
+	border-radius: 50%;
+}
+.btn{
+	width: 120px;
+	height: 50px;
+	position: absolute;
+	z-index: 11;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+	line-height: 50px;
+	border:1px dashed #fff;
+	cursor: pointer;
+}
+.star{
+	top: 70px;
+	right:320px;
+}
+.roler{
+	top: 130px;
+	right:320px;
+}
+.moshi{
+	top: 190px;
+	right:320px;
+}
+.jieshao{
+	position: relative;
+	width:400px;
+	height: 300px;
+	top: 280px;
+	left: 0;
+	right: 0;
+	bottom:0;
+	margin: auto;
+	background: url(../imgs/2.jpg) no-repeat center center;
+	background-size: 400px 300px;
+	display: none;
+}
+.jieshao .close{
+	width: 30px;
+	height: 30px;
+	background: rgb(255,252,159);
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 25px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: 800;
+	color: #333;
+}
+.jieshao span{
+	display: block;
+	font-size: 20px;
+	padding-top: 40px;
+	font-weight: 800;
+}
